@@ -72,7 +72,7 @@ public class BlogController {
     }
 
     @PostMapping("/blog/{id}/remove")
-    public String blogPostUpd(@PathVariable( value = "id") long id,  Model model) {
+    public String blogPostRemove(@PathVariable( value = "id") long id,  Model model) {
         Post post = postRepository.findById(id).orElseThrow();
         postRepository.save(post);
         return "redirect:/blog";
