@@ -13,7 +13,7 @@
     <div th:each="el : ${post}" class="py-5 text-left container">
         <link th:href="@{/styles/header.css}" rel="stylesheet">
         <h1 class="title" th:text="${el.full_text}"></h1>
-        <p><b>Просмотры:</b><span th:text="${el.views}"></span></p>
+        <p><b>Просмотры: </b><span th:text="${el.views}"></span></p>
         <a th:href="'/blog/' + ${el.id} + '/edit'" class="btn btn-warning">Редактировать</a><br>
         <form th:action="'/blog/' + ${el.id} + '/remove'" method="post">
             <button class="btn btn-warning" type="submit">Удалить</button>
