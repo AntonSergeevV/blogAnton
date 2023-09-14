@@ -1,14 +1,15 @@
 .main-header-block{
     padding: 10px 20px;
-    background: #e6b3b3;
+    background: #FFA500;
     display: flex;
     justify-content: space-between;
+    font-weight: bold;
 
 
 }
 
 .main-header-block a{
-    color: black;
+    color: #8B008B;
     margin: 10px;
 
 }
