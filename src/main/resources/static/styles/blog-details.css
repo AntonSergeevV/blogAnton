@@ -1,0 +1,16 @@
+.blog-details-text{
+}
+
+.blog-details-views p{
+    font-weight: bold;
+
+}
+
+.blog-details-buttons{
+    display: flex;
+
+
+}
+.blog-details-buttons a{
+    margin-right: 10px;
+}
